@@ -1,4 +1,4 @@
-# Task Info:
+# Game simillar to scrabble, written in C using SysV:
 Very simplified "scrabble" game. Server joins players in pairs to play one game ( matched automatically as new connections are accepted). After the game is finished clients are informed about result and are given the choice to play once more or exit. At the same time server runs multiple games e.g. if 9 peers connects it starts 4 games and one peer must wait for another connection.
 
 If one of peers disconnects before game finish, the other peer must be given the same choice as if the game ended. The game is unresolved.
